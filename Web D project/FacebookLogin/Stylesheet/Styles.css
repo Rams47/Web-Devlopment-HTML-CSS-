@@ -1,0 +1,89 @@
+body{
+    background-color: #F0FFFF;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color:#0084FF;
+    font-size: 50px;
+    margin: 0px;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+input{
+    width: 250px;
+    border-radius: 3px;
+    padding: 10px 15px;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    margin: 15px auto;
+    border: 1px thin;
+}
+
+button{
+  outline: 0;
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 3px;
+  width: 284px;
+  font-size: 18px;
+  border: 0;
+}
+
+hr{
+    border-top: 1px thin;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.parent{
+    position: relative;
+}
+
+.brandsection{
+    position: absolute;
+    top: 140px;
+    left: 180px;
+}
+
+.card{
+    background-color: #FFFFFF;
+    height: min-content;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px thin;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.grbtn{
+    background-color: #2eca3e;
+    color: #FFFF;
+}
+
+.loginbtn{
+    background-color: rgb(22, 163, 245);
+    color: #FFFF;
+}
+
+.bottom{
+    font-size: 14px;
+}
+
+p{
+    width: 284px;
+}
+
+hr{
+    width: 284px;
+}
